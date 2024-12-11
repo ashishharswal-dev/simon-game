@@ -1,0 +1,58 @@
+.app {
+  background-color: #1a2b4a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  /* padding: 2rem; */
+}
+
+.title {
+  color: #f0f0c9;
+  font-family: "Press Start 2P", monospace;
+  margin-bottom: 2rem;
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.button {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  border: 3px solid #000;
+  cursor: pointer;
+  transition: brightness 0.3s ease;
+}
+
+.button:active {
+  filter: brightness(1.5);
+}
+
+.button.green { background-color: #00a74a; }
+.button.red { background-color: #9f0f17; }
+.button.yellow { background-color: #cca707; }
+.button.blue { background-color: #094a8f; }
+
+.button.active {
+  filter: brightness(1.5);
+}
+
+.level {
+  color: #f0f0c9;
+  font-family: "Press Start 2P", monospace;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.title {
+  color: #f0f0c9;
+  font-family: "Press Start 2P", monospace;
+  margin-bottom: 1rem;
+  text-align: center;
+}
