@@ -4,8 +4,6 @@
 
 This is a React-based implementation of the classic Simon memory game. Players must repeat an increasingly complex sequence of colored button presses, testing their memory and concentration.
 
-![Simon Game Screenshot](./screenshot.png)
-
 ## 🌟 Features
 
 - Classic Simon Game mechanics
